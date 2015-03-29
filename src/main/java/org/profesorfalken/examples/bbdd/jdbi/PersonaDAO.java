@@ -12,8 +12,5 @@ public interface PersonaDAO {
 	@SqlQuery("select nombre from persona where id = :id")
 	String getNombreById(@Bind("id") long id);
 
-	/**
-	 * close with no args is used to close the connection
-	 */
 	void close();
 }
