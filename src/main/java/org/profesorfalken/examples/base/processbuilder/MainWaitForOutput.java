@@ -16,14 +16,14 @@ public class MainWaitForOutput {
 					p.getInputStream()));
 			BufferedReader error = new BufferedReader(new InputStreamReader(
 					p.getErrorStream()));
-			String ligne = "";
+			String linea = "";
 
-			while ((ligne = output.readLine()) != null) {
-				System.out.println(ligne);
+			while ((linea = output.readLine()) != null) {
+				System.out.println(linea);
 			}
 
-			while ((ligne = error.readLine()) != null) {
-				System.out.println(ligne);
+			while ((linea = error.readLine()) != null) {
+				System.out.println(linea);
 			}
 
 			p.waitFor();
