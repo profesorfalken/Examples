@@ -1,7 +1,8 @@
 package org.profesorfalken.examples.bbdd.dao;
 
-import junit.framework.TestCase;
 
+import static junit.framework.Assert.assertEquals;
+import junit.framework.TestCase;
 import org.profesorfalken.examples.bbdd.dao.model.User;
 
 public class TestUserDAO extends TestCase {
