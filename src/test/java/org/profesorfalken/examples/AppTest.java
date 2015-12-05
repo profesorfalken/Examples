@@ -1,4 +1,4 @@
-package org.profesorfalken.examples_java_general;
+package org.profesorfalken.examples;
 
 import junit.framework.Test;
 import junit.framework.TestCase;
